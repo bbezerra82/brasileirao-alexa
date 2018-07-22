@@ -1,0 +1,95 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "brasileirao",
+      "types": [
+
+      ],
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+
+          ]
+        },
+        {
+          "name": "firstPlaceIntent",
+          "slots": [
+
+          ],
+          "samples": [
+            "which team is in first",
+            "which team is leading",
+            "who is leading",
+            "who is first"
+          ]
+        },
+        {
+          "name": "libertadoresIntent",
+          "slots": [
+
+          ],
+          "samples": [ 
+            "libertadores"
+          ]
+        },
+        {
+          "name": "sulamericanaIntent",
+          "slots": [
+
+          ],
+          "samples": [
+            "sul americana"
+          ]
+        },
+        {
+          "name": "relegationIntent",
+          "slots": [
+
+          ],
+          "samples": [
+            "relegated"
+          ]
+        },
+        {
+          "name": "standingsIntent",
+          "slots": [
+
+          ],
+          "samples": [
+            "what are the standings",
+            "give me the standings"
+          ]
+        },
+        {
+          "name": "nameIntent",
+          "slots": [
+
+          ],
+          "samples": [
+            "my name is "
+          ]
+        },
+        {
+          "name": "hearMoreIntent",
+          "slots": [
+
+          ],
+          "samples": "yes"
+        }
+      ]
+    }
+  }
+}
